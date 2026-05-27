@@ -33,13 +33,13 @@ def update():
     rotation_speed = speed_slider.value
 
     if is_running:
-        motor.rotation_z += rotation_speed
         pulley.rotation_z += rotation_speed
 
 start_button = Button(
     text='Start',
     color=color.green,
-    position=(-0.5,0.4)
+    position=(-0.35, -0.4),
+    scale=0.4
 )
 
 start_button.on_click = start_rotation
@@ -47,7 +47,8 @@ start_button.on_click = start_rotation
 stop_button = Button(
     text='Stop',
     color=color.red,
-    position=(0.5,0.4)
+    position=(0.35, -0.4),
+    scale=0.4
 )
 
 stop_button.on_click = stop_rotation
@@ -56,8 +57,8 @@ speed_slider = Slider(
     min=0,
     max=10,
     default=1,
-    position=(0,-0.4),
-    scale=0.8
+    position=(0, -0.6),
+    scale=0.5
 )
 
 app.run()

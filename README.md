@@ -13,24 +13,30 @@ This project is a Python-based desktop application developed to control the rota
 - Dynamic pulley rotation
 - Real-time rotation speed adjustment
 - Blender model integration workflow
+- Pivot-based mechanical rotation workflow
 
 
 ## Tools & Technologies Used
 - Blender 5.1.0
 - Python
-- Tkinter
 - Ursina Engine
-- VS Code
+- Tkinter 
+- Visual Studio Code
+- GitHub
 
 
 ## Current Progress
 - Completed Week 3 mechanical models (Shaft, Pulley, Gear, DC Motor)
 - Created Week 4 project repository and folder structure
-- Set up Python project environment and required packages
-- Imported Blender `.glb` models into the Python project
-- Started developing the desktop UI layout with Start/Stop controls and speed slider
-- Began testing dynamic model rotation workflow inside the Python application
-- Continuing integration and refinement of motor-pulley control system
+- Set up Python project environment and installed required packages
+- Exported Blender mechanical models in `.glb` format
+- Imported Blender models into the Python application environment
+- Developed the initial desktop UI layout
+- Added Start and Stop button controls
+- Integrated initial speed slider workflow
+- Started testing dynamic pulley rotation behavior
+- Began refining shaft rotation alignment and synchronization workflow
+- Continuing motor-pulley integration and application refinement
 
 
 ## Project Goal
