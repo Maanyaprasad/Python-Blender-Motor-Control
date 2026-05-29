@@ -54,9 +54,9 @@ def update():
         motor.rotation_y += rotation_speed
         shaft.rotation_y += rotation_speed  
 
-#---------------------------------------------------
-#         START/STOP BUTTONS AND SLIDER
-#---------------------------------------------------
+#---------------------------------------------------------------
+#         START/STOP BUTTONS AND SPEED CONTROL SLIDER BAR BUTTON
+#---------------------------------------------------------------
 
 
 start_button = Button(
